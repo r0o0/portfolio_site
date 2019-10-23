@@ -1,6 +1,6 @@
 <template>
   <div class="developer">
-    <h2 class="headline">UI/UX 디자이너로서 작업한 개인 프로젝트들입니다.</h2>
+    <h2 class="headline">UI/UX 디자이너로서 작업한 프로젝트들입니다.</h2>
     <div class="subcontent">
       <h3 class="subhead">Work</h3>
       <List v-bind:list-data="listWork"/>
