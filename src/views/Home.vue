@@ -29,9 +29,10 @@ export default {
   flex-flow: column nowrap;
   justify-content: center;
   height: calc(100vh - 70px);
-  margin-top: -210px;
+  margin-top: -40px;
   padding: 0 24px;
   @media screen and (min-width: 764px) {
+    margin-top: -210px;
     margin-left: 100px;
     padding: 0 40px;
   }
