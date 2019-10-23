@@ -98,12 +98,14 @@ export default {
   }
   .tags {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     margin-bottom: 24px;
     & > * {
       display: flex;
       align-items: center;
       margin-right: 8px;
+      margin-bottom: 10px;
       padding: 6px 14px;
       font-size: 14px;
       font-weight: bold;
