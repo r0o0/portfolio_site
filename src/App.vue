@@ -37,6 +37,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   color: #e2dede;
   background: #161616;
+  cursor: default;
 }
 .header {
   display: flex;
