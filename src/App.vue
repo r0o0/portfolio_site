@@ -45,6 +45,7 @@ export default {
   flex-flow: row wrap;
   justify-content: space-between;
   align-content: center;
+  align-items: center;
   width: 100%;
   height: 72px;
   padding: 0 16px;
