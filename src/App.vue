@@ -31,7 +31,7 @@ export default {
   flex-flow: column wrap;
   justify-content: space-between;
   width: 100%;
-  min-height: 100vh;
+  height: 100%;
   overflow-x: hidden;
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
