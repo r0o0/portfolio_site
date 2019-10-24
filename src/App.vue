@@ -6,9 +6,9 @@
       </h1>
       <Nav v-show="$route.path !== '/'" />
     </header>
-    <main>
-      <router-view/>
-    </main>
+    <!-- <main> -->
+    <router-view/>
+    <!-- </main> -->
     <footer class="footer">
       Na Kyung Oh | r0o0 © 2019
     </footer>
@@ -31,7 +31,7 @@ export default {
   flex-flow: column wrap;
   justify-content: space-between;
   width: 100%;
-  height: 100%;
+  min-height: 100vh;
   overflow-x: hidden;
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
